@@ -23,4 +23,4 @@ module.exports = (robot) ->
       # 展開可能なURLを作成し、タイムライン表示用の部屋に投稿する
       # roomの指定で、 投稿するchannelを指定
       # 第二引数でslackのパーマネントURLを構築
-      robot.send {room: "#times_timeline"}, "#{slack_url}/archives/#{room}/p#{id}"
+      robot.send {room: "#timeline"}, "#{slack_url}/archives/#{room}/p#{id}"
