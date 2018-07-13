@@ -9,7 +9,7 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 # 自分のslackのURL
-slack_url = "https://hakodatesweets2018.slack.com/"
+slack_url = "https://hakodatesweets2018.slack.com"
 
 module.exports = (robot) ->
   # どんな文字列があっても拾う
